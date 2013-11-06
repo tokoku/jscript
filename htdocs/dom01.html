@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .rojo {
+        background-color:red;
+        color: yellow;
+      }
+    </style>
+    <script>
+      
+      window.onload = function() {
+               var elemento;
+              elemento = document.getElementById('variable');
+              elemento.innerHTML='generado pro JavaScript';
+              elemento= document.getElementById('parrafo');
+              elemento.setAttribute('style','background-color:#3455DE;');
+              elemento= document.getElementById('parrafo02');
+              elemento.setAttribute('class','rojo');
+      };
+      window.onunload= function() {
+         alert("estas seguro que quieres abandonar esta aplicacion?");
+      };
+    </script>
+  </head>
+  
+  <body>
+     <p id="parrafo"> Este es un parrafo inicial y se va poner esta seccion para cambiar el
+       <span id="variable">contenido</span>
+    </p>
+    <p id="parrafo02">
+       otro parrafo
+    </p>
+    
+    
+  </body>
+</html>

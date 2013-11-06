@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Lista dinamica</title>
+    <meta charset="utf-8" >
+    <script src="js/almacenamiento.js">
+    </script>
+    <script>
+      function generarLista() {
+         var avengers = ['hulk','cap america','thor','iron man'];
+         var ol=document.getElementById('lista');
+        var contenido='';
+        for (var i=0;i<avengers.length;i++) {
+          contenido= contenido + '<li>'+avengers[i]+'</li>';
+        }
+        ol.innerHTML=contenido;
+      }
+      function agregar() {
+         var input= document.getElementById('avenger');
+         var new_avenger=input.value;
+         var lista= document.getElementById('lista');
+        /* se inserta usando concatenacion de cadenas
+         lista.innerHTML = lista.innerHTML + '<li>'+new_avenger+'</li>';
+        */
+        var li = document.createElement('li');
+        li.innerHTML= new_avenger;
+        lista.appendChild(li);
+        guardar(new_avenger);
+      }
+      function init() {
+         cargarAvengers();
+         var boton= document.getElementById('agregar');
+         boton.onclick=agregar;
+      }
+      window.onload = init;
+    </script>
+  </head>
+  
+  <body>
+    <h1>Una lista dinamica</h1>
+    Agregar avenger<input type="text" name="avenger" id="avenger" />
+    <button id="agregar"> Agregar cancion </button>
+    <ol id="lista">
+      
+    </ol>
+  </body>
+  
+</html>
