@@ -1,0 +1,47 @@
+<!doctype  html>
+<html>
+   <head>
+     <title>Ejemplo simple de un canvas</title>
+     <meta charset="utf-8" />
+     <style>
+       canvas#drawzone {
+         border:1px solid black;
+       }
+     </style>
+     <script src="js/canvas.js">
+     </script>
+  </head>
+  <body>
+    <!-- insetar un canvas como elemento HTML -->
+    <canvas id="drawzone" width="600"  height="200">
+       Si este mensaje se despliega, el navegador no soporta HTML5 Canvas
+    </canvas>
+    <form>
+      <p>
+        <label for="colorFondo">Seleccionar un color de fondo:</label>
+        <select id="colorFondo">
+          <option value="white" selected="selected">Blanco</option>
+          <option value="black">Negro</option>
+        </select>
+      </p>
+      <p>
+        <label for="color">Seleccionar un color de texto:</label>
+        <select id="color">
+          <option value="white">Blanco</option>
+          <option value="black" selected="selected">Negro</option>
+        </select>
+      </p>
+      <p>
+        <label for="figura">Circulo o cuadrado</label>
+        <select id="figura">
+          <option value="none" selected="selected">Ninguna</option>
+          <option value="circulos">Circulos</option>
+          <option value="cuadrados">Cuadrados</option>
+        </select>
+      </p>     
+      <p> 
+          <input type="button" id="ver" value="Prever">
+      </p>
+    </form>
+  </body>
+</html>

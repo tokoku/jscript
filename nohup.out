@@ -2,11 +2,88 @@ Servidor en puerto 8888
 / metodo HTTP:GET
 Mapeo de ruta es undefined
 Ruta :htdocs/ true
-/lista.html metodo HTTP:GET
+/favicon.ico metodo HTTP:GET
 Mapeo de ruta es undefined
-Ruta :htdocs/lista.html true
+Ruta :htdocs/favicon.ico false
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
 Leyendo del pipe 
-/js/almacenamiento.js metodo HTTP:GET
+/js/canvas.js metodo HTTP:GET
 Mapeo de ruta es undefined
-Ruta :htdocs/js/almacenamiento.js true
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
 Leyendo del pipe 
