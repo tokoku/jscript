@@ -1,0 +1,12 @@
+Servidor en puerto 8888
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/lista.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/lista.html true
+Leyendo del pipe 
+/js/almacenamiento.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/almacenamiento.js true
+Leyendo del pipe 
