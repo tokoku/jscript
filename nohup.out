@@ -87,3 +87,19 @@ Leyendo del pipe
 Mapeo de ruta es undefined
 Ruta :htdocs/js/canvas.js true
 Leyendo del pipe 
+/tareajson.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/tareajson.html true
+Leyendo del pipe 
+Servidor en puerto 8888
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/canvastarea.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvastarea.html true
+Leyendo del pipe 
+/js/canvastarea.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvastarea.js true
+Leyendo del pipe 
