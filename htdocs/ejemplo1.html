@@ -11,9 +11,9 @@ function literal() {
   var expreg = /^\d{2}-\d{2}-\d{4}$/;
   
   if(expreg.test(m))
-	alert("La letra es correcta"); 
+	alert("La fecha es correcta"); 
   else 
-    alert("La letra NO es correcta"); 
+    alert("La fecha NO es correcta"); 
 } 
 
 </script>
@@ -21,7 +21,7 @@ function literal() {
 <body>
 <form id="miForm" action="" method="get">
 <p>
-Cualquier letra mayuscula: <input type="text" id="matricula" />
+Formato de fecha 00-00-0000: <input type="text" id="matricula" />
 <br />
 <input type="button" value="click" onclick="literal()" />
 

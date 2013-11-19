@@ -278,3 +278,7 @@ Leyendo del pipe
 Mapeo de ruta es undefined
 Ruta :htdocs/ejemplo1.html true
 Leyendo del pipe 
+/ejemplo1.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ejemplo1.html true
+Leyendo del pipe 
